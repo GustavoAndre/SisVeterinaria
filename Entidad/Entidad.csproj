@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsAnimal.cs" />
     <Compile Include="clsCita.cs" />
     <Compile Include="clsUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
