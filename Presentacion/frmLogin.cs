@@ -16,6 +16,7 @@ namespace Presentacion
     public partial class frmLogin : Form
     {
         clsUsuario objUsu = new clsUsuario();
+        
         public frmLogin()
         {
             InitializeComponent();
@@ -24,6 +25,7 @@ namespace Presentacion
         private void button1_Click(object sender, EventArgs e)
         {
             validarUsu();
+            
 
         }
         public void validarUsu()
